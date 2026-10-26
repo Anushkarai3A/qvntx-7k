@@ -50,7 +50,9 @@ class Settings(BaseSettings):
     max_horizon_hours: float = Field(default=72.0, gt=0, le=168)
     min_horizon_hours: float = Field(default=0.5, gt=0)
 
-    cors_origins: str = "http://localhost:5173,http://127.0.0.1:5173,http://localhost:3000"
+    
+    cors_origins: str = "http://localhost:5173,http://127.0.0.1:5173,http://localhost:3000,https://qvntx-7k.vercel.app"
+
 
     @field_validator(
         "analysis_start",
