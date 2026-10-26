@@ -176,6 +176,4 @@ The backend exposes health-check and API endpoints.
 
 For additional endpoints, request parameters, and response schemas, refer to the [API documentation](https://qvntx-7k.onrender.com/docs).
 
-## License
 
-No license has been specified in this README. Add a license file if you intend to define how others may use, modify, or distribute the project.
